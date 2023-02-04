@@ -21,7 +21,7 @@ def add_data(d):
         file.write('phone_number: {}\n'
  .format (d))
 def add_description(d):
-             file.write (tabulate (d, headers ='head', tablefmt="grid"·))
+             file.write (tabulate(d, headers ='head', tablefmt="grid"·))
 
 
     with open ('telefon_book.bd', 'a') as file:
